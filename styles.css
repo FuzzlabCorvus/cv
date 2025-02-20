@@ -1,12 +1,34 @@
 body {
     background-color: #504B38;
     color: #F8F3D9;
-
-    
+  
 }
+
+
 
 .navbar {
     background-color: #B9B28A;
 }
 
+.nav-link {
+    color: #F8F3D9;
+    
+}
 
+.nav-link:hover {
+    color: #FFFFFF;
+    
+}
+
+.btn-primary {
+    background-color: #B9B28A;
+    border: #F8F3D9;
+     
+}
+
+.btn-primary:hover {
+    background-color: #EBE5C2;
+    border: #F8F3D9;
+    color: black;
+     
+}
