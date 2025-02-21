@@ -8,6 +8,9 @@ body {
 
 .navbar {
     background-color: #B9B28A;
+    z-index: 100;
+    position:sticky;
+    top: 0%;
 }
 
 .nav-link {
