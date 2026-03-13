@@ -61,8 +61,6 @@ body {
     font-size: 18px;
 }
 
-
-
 .nav-link {
       color: #1B3C53;
 }
@@ -103,4 +101,14 @@ ul li a {
 
 ul li a:hover {
   color: #ff6600;
+}
+
+span {
+    font-variant: small-caps;
+    display: block;
+    position: relative;
+}
+
+#hamburger {
+    display: none;
 }
