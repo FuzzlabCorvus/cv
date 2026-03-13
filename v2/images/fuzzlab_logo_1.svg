@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="300"
+       height="300"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <filter
+       x="-0.0097624849"
+       width="1.019525"
+       y="-0.015892778"
+       height="1.0317856"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Felt Feather"
+       id="filter133">
+      <feGaussianBlur
+         stdDeviation="0.01 0.11"
+         result="blur"
+         id="feGaussianBlur130" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="atop"
+         result="composite1"
+         id="feComposite130" />
+      <feComposite
+         in2="composite1"
+         operator="in"
+         result="composite2"
+         id="feComposite131" />
+      <feComposite
+         in2="composite2"
+         operator="in"
+         result="composite3"
+         id="feComposite132" />
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="1"
+         seed="2"
+         baseFrequency="0.05 0.05"
+         result="turbulence"
+         id="feTurbulence132" />
+      <feDisplacementMap
+         in="composite3"
+         in2="turbulence"
+         xChannelSelector="R"
+         scale="5.9"
+         yChannelSelector="G"
+         result="map"
+         id="feDisplacementMap132" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -0 "
+         result="colormatrix"
+         id="feColorMatrix132" />
+      <feComposite
+         in="composite3"
+         in2="colormatrix"
+         operator="over"
+         result="composite4"
+         id="feComposite133" />
+    </filter>
+    <rect
+       x="217.82401"
+       y="126.33792"
+       width="361.58783"
+       height="119.07712"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:none;stroke:#ff6600;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter133)"
+       id="rect2"
+       width="104.89133"
+       height="79.532982"
+       x="52.554333"
+       y="27.279425"
+       transform="matrix(2.7028886,0,0,2.7028886,-134.3409,-45.08372)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.5076921,0,0,1.802868,-457.36363,-178.94908)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.2639px;font-family:GothicG;-inkscape-font-specification:GothicG;text-align:center;letter-spacing:1.36202px;word-spacing:2.17188px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#ff00ff;stroke:#ff6600;stroke-width:7.55906;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="180.79391"
+       y="0"><tspan
+         x="331.21376"
+         y="163.29445"
+         id="tspan7"><tspan
+           dx="0 0 0 0 -2.1718853"
+           style="font-family:ISOCT;-inkscape-font-specification:ISOCT;display:inline;fill:#ff6600"
+           id="tspan6">FUZZ
+</tspan></tspan><tspan
+         x="348.23511"
+         y="215.97987"
+         id="tspan9"><tspan
+           style="font-family:ISOCT;-inkscape-font-specification:ISOCT;display:inline;fill:#ff6600"
+           id="tspan8">LAB</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.6056px;font-family:GENISO;-inkscape-font-specification:GENISO;text-align:start;letter-spacing:2.24554px;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#ff00ff;stroke:#ff6600;stroke-width:5.40578;stroke-linejoin:round;stroke-dasharray:129.738, 5.40578;stroke-dashoffset:0;stroke-opacity:1"
+       x="73.604881"
+       y="286.28574"
+       id="text4"
+       inkscape:label="interactive"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.6056px;font-family:GENISO;-inkscape-font-specification:GENISO;letter-spacing:2.24554px;fill:#000000;fill-rule:nonzero;stroke:#ff6600;stroke-width:5.40578;stroke-linecap:round;stroke-dasharray:129.738, 5.40578;stroke-dashoffset:0"
+         x="73.604881"
+         y="286.28574">interactive</tspan></text>
+  </g>
+</svg>
