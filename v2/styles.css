@@ -45,8 +45,10 @@ body {
 }
 
 .logo {
-    width: 150px;
     margin: 1rem;
+    flex-shrink: 0;
+    height: 150px;
+    width: 150px;
 }
 
 .nav {
