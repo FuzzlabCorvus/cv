@@ -90,7 +90,9 @@ body {
     padding-top: 20px;
 }
 
-
+h1 {
+    font-size: 26px;
+}
 .content {
     background-color:#BFC9D1;
     color: black;
@@ -176,7 +178,7 @@ span {
     }
 
     h1 {
-    font-size: 26px;
+    font-size: 32px;
     padding: 0;
     margin: 0;
     }
